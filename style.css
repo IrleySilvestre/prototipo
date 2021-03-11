@@ -1,0 +1,106 @@
+.form-reserva {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    padding: 1rem;
+    border: 1px solid lightslategray;
+    border-radius: 8px;
+    background-color: #dddbff;
+
+}
+
+.form-reserva .titulo {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    color: #06121c;
+}
+
+.form-reserva .labels {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    color: #06121c;
+
+}
+
+.form-reserva .inputs {
+    height: 1.5rem;
+    font-size: .8rem;
+}
+
+.form-reserva .inputs.disp {
+    width: 10rem;
+}
+
+
+.form-link {
+    font-family: 'Poppins', sans-serif;
+    color: #06121c;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form-button {
+    border: 1px solid lightslategray;
+    font-weight: bold;
+    height: 2rem;
+    width: 7rem;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 300ms;
+
+}
+
+.form-button:hover {
+    transform: scale(1.08);
+}
+
+@media screen and (min-width: 0px) {
+    .form-reserva {
+        width: 340px;
+    }
+
+    .form-reserva .titulo {
+        font-size: 1.3rem;
+    }
+
+    .form-button {
+        font-size: .7rem;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+    .form-reserva {
+        width: 350px;
+    }
+
+    .form-reserva .titulo {
+        font-size: 1.5rem;
+    }
+
+    .form-button {
+        font-size: .8rem;
+    }
+
+@media screen and (min-width: 120px) {
+    .form-reserva {
+        width: 378px;
+    }
+
+    .form-reserva .titulo {
+        font-size: 1.7rem;
+    }
+
+    .form-button {
+        font-size: 1rem;
+    }
+
+}

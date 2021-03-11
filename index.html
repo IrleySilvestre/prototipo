@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./reset.css">
+        <title>Reserver Quadra</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <form class="form-reserva">
+                <h1 class="titulo">Realizar Reserva</h1>
+
+                <label class="labels" for="txtnome">Academia / Clube</label>
+                <input class="inputs" list="nome-academia" name="" id="txtnome"
+                    placeholder="Clique para selecionar">
+                <datalist id="nome-academia">
+                    <option value="Associação Clube de Tênis">
+                    <option value="Condominio Portal do Sol 2">
+                </datalist>
+
+                <label class="labels" for="dtreserva">Data da Reserva</label>
+                <input class="inputs" type="date" name="" id="dtreserva">
+
+                <label class="labels" for="quadras">Quadra Disponivel</label>
+                <input class="inputs disp" list="quadras-diponiveis" id="quadras"
+                    placeholder="Clique para selecionar">
+                <datalist id="quadras-diponiveis">
+                    <option value="Quadra 1">
+                    <option value="Quadra 2">
+                </datalist>
+
+                <label class="labels" for="horario">Horario Disponivel</label>
+                <input class="inputs disp" list="horario-quadras" id="horario"
+                    placeholder="Clique para selecionar">
+                <datalist id="horario-quadras">
+                    <option value="7:00">
+                    <option value="7:30">
+                    <option value="8:00">
+                    <option value="8:30">
+                    <option value="7:00">
+                    <option value="9:30">
+                    <option value="9:00">
+                </datalist>
+                <a class="form-link" href="">
+                    <p class="form-button">Enviar</p>
+                </a>
+
+            </form>
+        </header>
+    </main>
+
+</body>
+
+</html>
